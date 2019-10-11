@@ -3,10 +3,10 @@
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: gainsboro;
+    xxbackground-image: url(../images/backdrop.jpg);
 }
 body {
-    background-color: white;
+    background-image: url(../images/backdrop.jpg);
     position: relative;
 }
 header {
