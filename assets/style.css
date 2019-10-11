@@ -7,6 +7,7 @@ html {
 }
 body {
     background-color: white;
+    position: relative;
 }
 header {
     border: 1px solid #555;
@@ -64,13 +65,15 @@ xxxfooter {
 }
 
 #spacer {
+    position: relative;
     height: 5px;
-    width: 100%;
+    width: 97%;
     background-color: #aaaaaa;
 }
 
 #centerbox {
-    width: 100%;
+    position: relative;
+    width: 97%;
     border: 1px solid #555;
     padding: 20px;
     border: 5px;
@@ -78,7 +81,8 @@ xxxfooter {
 }
 
 #messagebox {
-    height:175px;
+    height:225px;
+    width: 97%;
     font-size:16pt;
 }
 
@@ -95,4 +99,9 @@ xxxfooter {
     height: 60px;
     margin: 0px;
     float: left;
+}
+
+#listitem {
+    position: relative;
+    width: 97%;
 }
