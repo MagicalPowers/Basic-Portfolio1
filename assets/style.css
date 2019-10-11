@@ -71,6 +71,10 @@ xxxfooter {
     background-color: #aaaaaa;
 }
 
+#avatar {
+    float: left;
+}
+
 #centerbox {
     position: relative;
     width: 97%;
@@ -108,7 +112,7 @@ xxxfooter {
 
 .container {
     display: grid;
-    grid-gap: 50px 100px;
+    grid-gap: 50px 50px;
     grid-template-columns: auto auto auto;
     background-color: white;
     padding: 10px;
@@ -120,4 +124,6 @@ xxxfooter {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    float: 0 auto;
+
   }
