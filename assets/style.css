@@ -2,17 +2,24 @@
 
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    xxbackground-image: url(../images/backdrop.jpg);
+    float: left;
+    margin: auto;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/criss-cross.png);
 }
 body {
-    background-image: url(../images/backdrop.jpg);
+    width: 960px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
     position: relative;
 }
 header {
-    border: 1px solid #555;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #cccccc;
     overflow: auto;
-    background-color: white;
+    background-color: #ffffff;
     display: block;
 }
 
@@ -48,7 +55,7 @@ footer {
     bottom: 0;
     width: 100%;
     xxxheight: 50px;
-    background-color: green;
+    background-color: #666666;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -73,6 +80,7 @@ xxxfooter {
 
 #avatar {
     float: left;
+    margin-left: 10px;
 }
 
 #centerbox {
@@ -98,8 +106,8 @@ xxxfooter {
 }
 
 #nnametag {
-    background-color: honeydew;
-    width: 20%;
+    background-color: #ffffff;
+    width: 40%;
     height: 60px;
     margin: 0px;
     float: left;
