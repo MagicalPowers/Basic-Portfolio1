@@ -12,6 +12,7 @@ header {
     border: 1px solid #555;
     overflow: auto;
     background-color: white;
+    display: block;
 }
 
 ul {
@@ -23,7 +24,7 @@ ul {
 
 li a {
     display: block;
-    padding: 8px;
+    padding: 0;
     background-color: #dddddd;
     display: inline;
 }
@@ -32,6 +33,7 @@ li {
     border-bottom: 1px solid #555;
     display: inline;
     margin: 0;
+    border-right: 1px solid #bbb;
 }
 
   
@@ -61,8 +63,14 @@ xxxfooter {
    
 }
 
+#spacer {
+    height: 5px;
+    width: 100%;
+    background-color: #aaaaaa;
+}
+
 #centerbox {
-    width: 100;
+    width: 100%;
     border: 1px solid #555;
     padding: 20px;
     border: 5px;
@@ -78,10 +86,13 @@ xxxfooter {
     font-weight: bolder;
     font-size: 30px;
     padding: 25px;
+    display: block;
 }
 
 #nnametag {
     background-color: honeydew;
     width: 20%;
     height: 60px;
+    margin: 0px;
+    float: left;
 }
