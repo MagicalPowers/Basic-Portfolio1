@@ -1,13 +1,53 @@
 
 
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+}
+body {
+    background-color: white;
+}
+header {
+    border: 1px solid #555;
+    overflow: auto;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    display: inline;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: inline;
+    margin: 0;
+}
+
+  
+li:last-child {
+    border-bottom: none;
+}
+
 footer {
     margin: 0 auto;
     float: left;
+    font-weight: bold;
 }
 
 #centerbox {
     width: 100;
+    border: 1px solid #555;
     padding: 20px;
     border: 5px;
 
@@ -16,4 +56,16 @@ footer {
 #messagebox {
     height:175px;
     font-size:16pt;
+}
+
+.nametag {
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 25px;
+}
+
+#nnametag {
+    background-color: honeydew;
+    width: 20%;
+    height: 60px;
 }
