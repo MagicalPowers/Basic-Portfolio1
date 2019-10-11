@@ -40,9 +40,25 @@ li:last-child {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    xxxheight: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    padding-top: 25px;
+    padding-bottom: 7px;
+
+ }
+
+xxxfooter {
     margin: 0 auto;
     float: left;
-    font-weight: bold;
+   
 }
 
 #centerbox {
